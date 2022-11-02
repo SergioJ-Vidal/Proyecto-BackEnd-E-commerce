@@ -8,9 +8,11 @@ const { authentication } = require('../middleware/authentication');
 
 router.post('/create', CategoryController.create)
 router.put('/update/:id', CategoryController.update)
+router.delete('/delete/:id', CategoryController.delete)
+
+
 // // router.get('/', ProductController.getAll)
 
-// router.delete('/delete/:id', ProductController.delete)
 
 // // router.post('/createProduct', ProductController.createProduct)
 
