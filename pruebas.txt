@@ -1,1 +1,4 @@
 $ sequelize model:generate --name Order --attributes date:datetime,paymentmethod:string,UserId:integer,
+$ sequelize model:generate --name Category --attributes name:string,
+
+sequelize db:migrate
