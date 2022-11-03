@@ -8,6 +8,7 @@ module.exports = {
       name: 'Glass',
       price:'8',
       description:'Black Glass',
+      category: 'guapardos'
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -15,6 +16,7 @@ module.exports = {
       name: 'Flag',
       price:'20',
       description:'Spain flag',
+      category: 'guapos pero no mucho'
       createdAt: new Date(),
       updatedAt: new Date()
     },

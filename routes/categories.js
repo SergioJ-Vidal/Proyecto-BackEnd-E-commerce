@@ -9,6 +9,8 @@ const { authentication } = require('../middleware/authentication');
 router.post('/create', CategoryController.create)
 router.put('/update/:id', CategoryController.update)
 router.delete('/delete/:id', CategoryController.delete)
+router.get('/findbyId/:id', CategoryController.getById)
+router.get('/findbyName/:name', CategoryController.getOneByName)
 
 
 // // router.get('/', ProductController.getAll)
