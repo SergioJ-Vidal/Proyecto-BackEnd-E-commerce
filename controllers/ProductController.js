@@ -22,7 +22,7 @@ const ProductController = {
     async getProductCategories(req, res) {
         try {
           const products = await Product.findAll({
-            include: [{ model: Category, attributes: ["name"], through: { attributes: [] } }],
+            include: Category,
           });
           res.send({ msg: "Your products", products });
         } catch (error) {

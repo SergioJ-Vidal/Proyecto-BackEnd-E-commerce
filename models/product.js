@@ -15,6 +15,8 @@ module.exports = (sequelize, DataTypes) => {
         through:models.ProductOrder
         
         })
+
+        Product.belongsTo(models.Category)
     }
   }
   Product.init({
